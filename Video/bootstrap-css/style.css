@@ -4,9 +4,9 @@
 
 @media(min-width:560px){
     .carousel-item img {
-    height: 400px;
-    margin-right: auto;
-    margin-left: auto;
+        height: 400px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -17,6 +17,10 @@
 .container h1{
     font-size: 3em;
     font-weight: bold;
+}
+
+.card img {
+    height: 180px;
 }
 
 .card{
