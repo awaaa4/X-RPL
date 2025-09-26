@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papan Catur 6x6</title>
+    <style>
+      .container {
+        width: 600px; /* 6 kotak × 100px */
+        height: 600px;
+        border: 2px solid black;
+        margin: auto;
+        position: relative;
+      }
+      .kotak {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+      }
+      .hitam {
+        background: #3a240c;
+      }
+      .putih {
+        background: #d4b47f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Baris 1 -->
+      <div class="kotak hitam" style="top: 0px; left: 0"></div>
+      <div class="kotak putih" style="top: 0px; left: 100px"></div>
+      <div class="kotak hitam" style="top: 0px; left: 200px"></div>
+      <div class="kotak putih" style="top: 0px; left: 300px"></div>
+      <div class="kotak hitam" style="top: 0px; left: 400px"></div>
+      <div class="kotak putih" style="top: 0px; left: 500px"></div>
+      
+      <!-- Baris 2 -->
+      <div class="kotak putih" style="top: 100px; left: 0"></div>
+      <div class="kotak hitam" style="top: 100px; left: 100px"></div>
+      <div class="kotak putih" style="top: 100px; left: 200px"></div>
+      <div class="kotak hitam" style="top: 100px; left: 300px"></div>
+      <div class="kotak putih" style="top: 100px; left: 400px"></div>
+      <div class="kotak hitam" style="top: 100px; left: 500px"></div>
+      
+      <!-- Baris 3 -->
+      <div class="kotak hitam" style="top: 200px; left: 0"></div>
+      <div class="kotak putih" style="top: 200px; left: 100px"></div>
+      <div class="kotak hitam" style="top: 200px; left: 200px"></div>
+      <div class="kotak putih" style="top: 200px; left: 300px"></div>
+      <div class="kotak hitam" style="top: 200px; left: 400px"></div>
+      <div class="kotak putih" style="top: 200px; left: 500px"></div>
+
+      <!-- Baris 4 -->
+      <div class="kotak putih" style="top: 300px; left: 0"></div>
+      <div class="kotak hitam" style="top: 300px; left: 100px"></div>
+      <div class="kotak putih" style="top: 300px; left: 200px"></div>
+      <div class="kotak hitam" style="top: 300px; left: 300px"></div>
+      <div class="kotak putih" style="top: 300px; left: 400px"></div>
+      <div class="kotak hitam" style="top: 300px; left: 500px"></div>
+
+      <!-- Baris 5 -->
+      <div class="kotak hitam" style="top: 400px; left: 0"></div>
+      <div class="kotak putih" style="top: 400px; left: 100px"></div>
+      <div class="kotak hitam" style="top: 400px; left: 200px"></div>
+      <div class="kotak putih" style="top: 400px; left: 300px"></div>
+      <div class="kotak hitam" style="top: 400px; left: 400px"></div>
+      <div class="kotak putih" style="top: 400px; left: 500px"></div>
+
+      <!-- Baris 6 -->
+      <div class="kotak putih" style="top: 500px; left: 0"></div>
+      <div class="kotak hitam" style="top: 500px; left: 100px"></div>
+      <div class="kotak putih" style="top: 500px; left: 200px"></div>
+      <div class="kotak hitam" style="top: 500px; left: 300px"></div>
+      <div class="kotak putih" style="top: 500px; left: 400px"></div>
+      <div class="kotak hitam" style="top: 500px; left: 500px"></div>
+    </div>
+  </body>
+</html>
