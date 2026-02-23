@@ -6,7 +6,7 @@ public class xrpl {
        muridrpl objek= new muridrpl();
         System.out.println(objek.nama);
         System.out.println("Nama anda adalah:" + objek.nama);
-        objek.nama="SHIFA";
+        objek.nama="NAJWA";
         System.out.println("Nama anda: " +objek.nama);
     }
 
