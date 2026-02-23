@@ -1,6 +1,6 @@
 
 public class muridrpl {
-    String nama="Shifa";
-    int absen=30;
-    int usia=16;
+    String nama="Najwa";
+    int absen=33;
+    int usia=17;
 }
